@@ -1,3 +1,50 @@
-img {
-  height: 6.3rem;
+@import "../../variables.scss";
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-black;
+  color: $color-white;
+  .menu {
+    ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      li {
+        list-style: none;
+        padding: 1.4rem;
+        font-size: 1.5rem;
+
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: $transition_0-3;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+        .select-icon {
+          margin-left: 0.5em;
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+  .settings-items {
+    display: flex;
+    a {
+      padding: 1.4rem;
+      text-decoration: none;
+      color: $color-white;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      transition: $transition_0-3;
+      .select-icon {
+        margin-left: 0.5em;
+        transform: rotate(90deg);
+      }
+    }
+    .hover-icon:hover {
+      color: $color-blue;
+    }
+  }
 }
