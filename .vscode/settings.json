@@ -1,7 +1,0 @@
-{
-  "auto-rename-tag.activationOnLanguage": ["*"],
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "color-highlight.rgbWithNoFunctionLanguages": ["*"]
-}
