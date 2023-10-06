@@ -75,6 +75,11 @@ export default function Navbar() {
                     className="select-icon"
                     icon={faAngleRight}
                   />
+                  {item.items.map((value, id) => (
+                    <div className="categories" key={id}>
+                      <div className="category">{value}</div>
+                    </div>
+                  ))}
                 </span>
               ) : (
                 ""

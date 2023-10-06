@@ -2,7 +2,6 @@
 
 .navbar-box {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-color: $color-black;
   color: $color-white;
@@ -22,9 +21,27 @@
         &:hover {
           background-color: rgba(255, 255, 255, 0.1);
         }
+        &:hover .categories {
+          display: block;
+        }
         .select-icon {
           margin-left: 0.5em;
           transform: rotate(90deg);
+        }
+        .categories {
+          display: none;
+          // position: absolute;
+          bottom: 0;
+          left: 0;
+          // height: 10rem;
+          width: 100%;
+          background-color: $color-black;
+          .category {
+            padding: 0.5rem 1rem 0.5rem 0.5rem;
+            &:hover {
+              background-color: $color-black;
+            }
+          }
         }
       }
     }
