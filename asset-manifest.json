@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Daryo.uz/static/css/main.058b1aff.css",
+    "main.js": "/Daryo.uz/static/js/main.3bea2990.js",
+    "index.html": "/Daryo.uz/index.html",
+    "main.058b1aff.css.map": "/Daryo.uz/static/css/main.058b1aff.css.map",
+    "main.3bea2990.js.map": "/Daryo.uz/static/js/main.3bea2990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.058b1aff.css",
+    "static/js/main.3bea2990.js"
+  ]
+}
